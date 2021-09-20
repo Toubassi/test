@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="title"> Dr. Emile Toubassi </h1>
+  </body>
+      <header>
+        <img class="seedo" src="Pictures/seedo.jpeg" alt:"seedo" width="100px" hight:"100px">
+      </header>
+  <br>
+  
+  <p>
+    <img class="first" src="Pictures/grandparents.jpeg" alt:"grandparents" style="float:right" width="190" height="150">
+  </p>
+ 
+
+  <body class="body">
+    <article>
+    <script src="script.js"></script>
+    <h3> About Dr. Emile Toubassi </h3>
+    <p> <em>Emile Micheal Toubassi</em>  was born in Jaffa, Palestine in 1929. </p>
+    <div>
+      <p> During his life, Mr. Toubassi was forced out of his home in Jaffa with his siblings during the 1948 Nakba by the occupation forces. 
+        <div>
+      </p>
+
+        <p>He moved to Alexandria, Egypt to follow his fathers' path of becoming a doctor. He studied pharmacy before he moved back to Palestine in 1993. 
+          <div>
+        <img class="first" src="Pictures/emilWithPharmacy.jpeg" style="float:right" width="190" height="150"> <div>
+        </p>
+
+      <div>
+          <p>
+            After finishing his studies in Egypt, his hometwon was taken by the Israeli occupation; therefore he moved to Ramallah where he opened the first Pharmacy in the city in 1956. 
+          </p>
+
+          <div> 
+
+          
+            <div>
+            <p>Emile was married in 1958, and he had 4 children; namely: Marwan, Ghassan, Samer and Rana. 
+              <div>
+            </p>
+
+            <p> When Ramallah was considered a part of Jordan, he was elected as a chairman of the sydicate association for pharmacists. </p>
+
+            <p>
+            <img class="first" src="Pictures/pharmacy.jpg"  style="float:right" width="150" height="200">
+            </p>
+
+            <div>
+
+            <p> In 1967, he became an active member of the PLO,and he was involved in a number of political activities against the Israeli occupation. He was detained several times by the Israeli Offence Forces for his contribution in activities against them. <div>
+              </p>
+            
+            
+           <p> He was one of the poeple who established the Orthodox Club of Ramallah in 1968.
+           </p>
+           <p>
+           <img class="first" src="Pictures/GrandparentsWithChildren.jpeg" width="190" height="150"> 
+            </p>
+
+</article>
+  </body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+</html>
